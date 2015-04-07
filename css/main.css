@@ -1,0 +1,92 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+}
+
+header {
+	border-bottom: 2px solid #eee;
+	margin-bottom: 15px;
+}
+
+header img {
+	margin:10px 0;
+	width: 70px;
+	height: 70px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+footer {
+	border-top: 2px solid #eee;
+	margin-top: 30px;
+}
+
+.logo {
+	text-align: left;
+}
+
+.title {
+	text-align: right;
+}
+
+h1 {
+	font-weight: 200;
+	color: #e42008;
+	margin: 10px 0;
+}
+
+h2 {
+	font-weight: 600;
+	color: #aaa;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+h3 {
+	font-weight: 200;
+}
+
+section,
+footer {
+	text-align: center;
+}
+
+h3,
+footer {
+	text-transform: none;
+}
+
+footer p {
+	margin: 20px 0;
+}
+
+.showcase h3 {
+	text-align: left;
+}
+
+.showcase img {
+ 	margin: 15px 0 20px;
+	border:1px solid #ccc;
+	padding:3px;
+}
+
+.hero img,
+.showcase img {
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.logo,
+	.title,
+	.showcase h3 {
+		text-align: center;
+	}
+	.showcase img {
+		max-width: 370px;
+
+	}
+	h1{
+		font-size: 24px;
+	}
+}
